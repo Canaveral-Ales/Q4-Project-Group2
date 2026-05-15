@@ -1,11 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Q4 Project</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Q4 Project</title>
+    <style>
+
+        body{
+            margin:0;
+            padding:0;
+            background-color:#f1f1f1;
+            font-family:Arial;
+        }
+
+        .sidebar{
+            width:190px;
+            height:100vh;
+            background:#171b25;
+            position:fixed;
+            color:white;
+            padding-top:20px;
+        }
+
+        .sidebar h2{
+            text-align:center;
+            color:orange;
+        }
+
+        .sidebar ul{
+            list-style:none;
+            padding:0;
+        }
+
+        .sidebar ul li{
+            padding:14px;
+            cursor:pointer;
+        }
+
+        .sidebar ul li:hover{
+            background:#2f3547;
+        }
+
+        .main{
+            margin-left:220px;
+            padding:20px;
+        }
+
+        .title{
+            background:#111;
+            color:white;
+            display:inline-block;
+            padding:10px 20px;
+            border-radius:10px;
+            font-size:35px;
+        }
+
+        .container{
+            margin-top:20px;
+            display:flex;
+            justify-content:space-between;
+        }
+
+        .profilepic{
+            text-align:center;
+            margin-top:90px;
+        }
+
+        .profilepic img{
+            width:140px;
+            height:140px;
+            border-radius:100px;
+        }
+
+        .card{
+            width:300px;
+            background:white;
+            padding:20px;
+            border-radius:15px;
+            box-shadow:0px 0px 10px gray;
+        }
+
+        button{
+            width:100%;
+            padding:10px;
+            background:deepskyblue;
+            border:none;
+            border-radius:5px;
+            margin-top:20px;
+        }
+
+        button:hover{
+            background:skyblue;
+        }
+
+        .hehe{
+            font-size:13px;
+            color:gray;
+        }
+
+    </style>
+
 </head>
+
 <body>
-    
-</body>
-</html>
+
+    <div class="sidebar">
+
+        <h2></h2>
+
+        <ul>
+            <li>Dashboard</li>
+            <li>Virtual Notebooksss</li>
+            <li>Tasks</li>
+            <li>Profile</li>
+            <li>Logout</li>
+        </ul>
+
+    </div>
+
+
+    <div class="main">
+
+        <div class="title">
+            PROFILE
+        </div>
+
+        <div class="container">
+
+            <div class="profilepic">
+
+                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
+
+                <br><br>
+
+                <input type="file">
+
+            </div>
